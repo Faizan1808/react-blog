@@ -1,0 +1,520 @@
+.holly{
+    display: flex;
+    margin-top: 30px;
+    gap:20px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
+
+.api-content{
+    width: 23rem;
+    text-align: center;
+    font-size: 20px;
+}
+
+#api-img{
+    width: 100%;
+}
+
+.main-Api{
+    text-align: center;
+    width: 50rem;
+    position: relative;
+    left: 15rem;
+}
+
+.back{
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    margin-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    font-weight:  bolder;
+    font-style: italic;
+    font-size: 16px;
+    display: flex;
+}
+
+.content{
+    text-align: justify;
+}
+
+.back-arrow{
+    width: 43px;
+    height: 44px;
+    position: relative;
+    bottom: -15px;
+}
+
+.api-hr{
+    width: 100%;
+}
+
+#Main-container{
+    display: flex;
+}
+
+#Hollywood-post{
+    margin-top: -63px;
+}
+
+#Hollywood-post .img{
+    height: 259px;
+    width: 314px;
+}
+
+#Hollywood-post h2{
+    width: 241px;
+}
+
+.main-Api a{
+    text-decoration: underline;
+    color: rgb(96, 96, 244);
+}
+
+#Api-post{
+    margin-top: 17px;
+}
+
+
+#logo{
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    margin-left: -63px;
+    background-color: rgb(253, 251, 248);
+    /* width: 100%; */
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.face-logo{
+    width: 95px;
+    height: 92px;
+}
+
+.logo-content{
+    display: flex;
+    gap: 15px;
+    font-size: 12px;
+}
+
+.logo-cont{
+    position: relative;
+    top: 1.6rem;
+}
+
+.logo-content .time{
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.btn{
+    height: 40px;
+    width: 120px;
+    margin-top: 20px;
+    position: absolute;
+    right: 4rem;
+    color: #03A87C;
+    border: 2px solid #03A87C;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+.social-media{
+    position: relative;
+    width: 26px;
+    height: 26px;
+    left: 20rem;
+    top: 2.5rem;
+    background:  0% 0% no-repeat padding-box;
+
+}
+
+#Api-post-main .img{
+    height: 249px;
+    width: 307px;
+    margin-top: 31px;
+    margin-left: -13px;
+}
+
+.heading{
+    width: 1rem;
+}
+
+.footter{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+hr{
+    width: 49rem;
+}
+
+.footter img{
+    height: 7rem;
+    width: 7rem;
+}
+
+.foot-left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13px;
+    gap: 5px;
+}
+
+.foot-left h3{
+    margin: 25px 0 0;
+
+}
+
+
+.related-content{
+    display: flex;
+    flex-direction: column;
+}
+.related-content-heading{
+    color: #000000;
+    text-align: left;
+    font-size: 18px;
+    background-color: rgb(253, 251, 248);
+    /* box-shadow: 0px 3px 6px #00000029; */
+    
+}
+
+.related-content-images{
+    display: flex;
+    text-align: justify;
+    gap: 25px;
+}
+
+.related-content-images .img{
+    height: 290px;
+    width: 356px;
+    margin-top: 31px;
+    margin-left: 0;
+    /* margin-bottom: 50px; */
+}
+
+.related-content .title{
+    width: 20rem;
+}
+
+.related-content img{
+    height: 50px;
+    width: 50px;
+}
+
+.related-content-data{
+    display: flex;
+}
+
+.related-content-data-column{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media (max-width:400px){
+    
+   *{
+    margin-left: -10px;
+    /* overflow: hidden */
+   }
+
+   .app{    
+    max-width: 100vw;
+    margin: auto;  
+    overflow-x: hidden;
+  }
+
+   /* .App{
+    width: -10px;
+   } */
+
+    .nav{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: grid;
+        grid-column: 2/4;
+        /* text-align: center; */
+        position: relative;
+        z-index: 99;
+    }
+
+    .mobile-nav li{
+        /* border: 1px solid black; */
+        margin-left: -56px;
+        width: 100%;
+        background-color: aliceblue;
+        box-shadow: 2px 2px cadetblue;
+        margin-top: -31px;
+        margin-bottom: -10px;
+        /* margin-bottom: -35px; */
+        
+    }
+
+    .last-li{
+        margin-bottom: 0;
+    }
+
+   
+
+    .menu-bar{
+        display: block;
+        width: 50px;
+        /* position: relative;
+        left: 100px; */
+        margin-left: 230px;
+        margin-top: -81px;
+        cursor: pointer;
+    }
+
+    .fleximg{
+        display: none;
+    }
+
+    .logo{
+        justify-content: left;
+        font-size: 10px;
+        gap: 8px;
+        
+    }
+
+    .therotate{
+        margin-left: -18px;
+    }
+
+    .head-hr{
+        margin-left: -50px;
+        width: 100%;
+    }
+
+    .image1{
+        margin-left: -73px;
+    width: 97%;
+    }
+
+    .gridimg1 .title{
+        font-size: 10px;
+        margin-left: -66px;
+        width: 88%;
+
+    }
+
+    #LC{
+        flex-direction: column;
+        margin-left: -33px;
+    }
+
+    #LC h3,p{
+        width: 20rem;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    #lc .Travel{
+        gap: 20px;
+    }
+
+    #ArticleContent{
+        flex-direction: column;
+    }
+
+    .ad,.postimg{
+        display: none;
+    }
+
+    .ArticleContentimg{
+        margin-left: 2px;
+        width: 10rem;
+        height: 8rem;
+    }
+    
+    .ArticlesContent-column h3{
+        margin-left: 16px;
+        width: 12rem;
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .ArticlesContent-column p{
+        font-size: 10px;
+        text-align: justify;
+        width: 72%;
+        margin-left: 16px;
+    }
+
+    .post{
+        margin-left: 0;
+    }
+
+    .img{
+        margin-left: -55px;
+        height: 18rem;
+        width: 20rem;
+    }
+
+    .postTitle{
+        margin-left: 0;
+        width: 20rem;
+    }
+
+    #date{
+        margin-left: 5px;
+    }
+
+    #LatestStories{
+        flex-direction: column;
+    }
+
+    .middle-hr{
+        width: 77%;
+        height: 1px;
+        
+    }
+
+    .LSHR{
+        display: none;
+    }
+
+    .Tech span{
+        margin-left: 5px;
+    }
+
+    #post-hr{
+        /* margin-left: -10px; */
+        width: 77%;
+    }
+
+    .hr{
+        margin-left: 20px;
+        width: 75%;
+    }
+
+    #Main-container{
+        flex-direction: column;
+    }
+
+    .image2{
+        height: 108px;
+        width: 134px;
+        margin-left: -24px;
+    }
+
+    .holly-content h3{
+        text-align: left;
+        margin-left: 2px;
+        font-size: 12px;
+    }
+
+    .api-content{
+        font-size: 10px;
+        width: 50%;
+        margin-top: -15px;
+        text-align: justify;
+    }
+
+    .holly-content .Published{
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .api-hr{
+        width: 80%;
+    }
+
+    .postContainer{
+        margin-left: -15px;
+    }
+
+    #Api-post-main .img{
+        margin-left: -71px;
+    }
+
+    #logo{
+        margin-left: -40px;
+        font-size: 15px;
+        background-color: aliceblue;
+    }
+
+    .btn{
+        right: 1rem;
+    }
+
+    .main-Api{
+        margin-left: -278px;
+    }
+
+    .main-Api h1{
+        font-size: 14px;
+        text-align: left;
+        width: 40%;
+
+    }
+
+    .face-logo{
+        width: 90px;
+        height: 80px;
+    }
+
+    .logo-cont{
+        left: -90px;
+        top: -5px;
+    }
+
+    .social-media{
+        left: -20rem;
+        top: 50px;
+    }
+
+    #api-img{
+        width: 300px;
+        height: 250px;
+        margin-left: -500px;
+        margin-top: 25px;
+    }
+
+    .main-Api h3,h4{
+        font-size: 12px;
+        text-align: justify;
+        width: 40%;
+    }
+
+    .footter img{
+        width: 90px;
+        height: 80px;
+        margin-left: 20px;
+    }
+
+    .related-content-images{
+        flex-direction: column;
+    }
+
+    .related-content-images .img{
+        width: 350px;
+        height: 250px;
+    }
+
+    .related-content p{
+        margin-top: 0;
+        text-align: left;
+    }
+
+    hr{
+        width: 40%;
+    }
+}
+
+
+

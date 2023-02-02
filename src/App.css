@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  margin-left: 5rem;
+  width: 90%;
+}
+
+@media (max-width:721px){
+  .App{
+    /* width: 100%; */
+  }
+}
