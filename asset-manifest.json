@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-blog/static/css/main.875a6abd.css",
+    "main.js": "/react-blog/static/js/main.b25b2574.js",
+    "static/js/787.ce43ad27.chunk.js": "/react-blog/static/js/787.ce43ad27.chunk.js",
+    "static/media/moun.jpg": "/react-blog/static/media/moun.1c3613075254e566746d.jpg",
+    "static/media/img3.jpg": "/react-blog/static/media/img3.90082165dd63003f098d.jpg",
+    "static/media/instagram.svg": "/react-blog/static/media/instagram.c2056460bbbf6c051f72df6d7c2fa6dc.svg",
+    "static/media/twitter.svg": "/react-blog/static/media/twitter.24b5e33e4a893814f68bccd04edbb97f.svg",
+    "static/media/youtube.svg": "/react-blog/static/media/youtube.dff237b6324a617a4f07ffdc2d9b9b7b.svg",
+    "index.html": "/react-blog/index.html",
+    "static/media/facebook.svg": "/react-blog/static/media/facebook.9b444da5aa9a56243f8c6dde17a22a43.svg",
+    "main.875a6abd.css.map": "/react-blog/static/css/main.875a6abd.css.map",
+    "main.b25b2574.js.map": "/react-blog/static/js/main.b25b2574.js.map",
+    "787.ce43ad27.chunk.js.map": "/react-blog/static/js/787.ce43ad27.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.875a6abd.css",
+    "static/js/main.b25b2574.js"
+  ]
+}
