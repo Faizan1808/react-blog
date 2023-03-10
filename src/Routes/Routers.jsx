@@ -5,6 +5,7 @@ import Index from '../Pages/Bollywood/index'
 import Hollywood from '../Pages/Hollywood'
 import Technology from '../Pages/Technology'
 import Fitness from '../Pages/Fitness'
+import Science from '../Pages/Science'
 
 // import Common from '../Pages/Demo/Index'
 import CommonFunction from '../Utility/CommonFunction'
@@ -21,9 +22,8 @@ const Routers = () =>{
                 <Route path= "/Bollywood" element= {<Index />} />
                 <Route path= "/Technology" element= {<Technology />} />
                 <Route path= "/Hollywood" element= {<Hollywood />} />
-                {/* <Route path= "/Common" element= {<Common />} /> */}
                 <Route path= "/Fitness" element= {<Fitness />} />
-                {/*<Route path= "/Food" element= {<Food />} /> */}
+                <Route path= "/Science" element= {<Science />} />
 
 
                 {/* Dynamic Routes */}

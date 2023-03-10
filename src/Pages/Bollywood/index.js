@@ -17,14 +17,14 @@ function Index(){
     const [data, setData] = useState([])
 
     const fetchData = () =>{
-        return fetch('https://newsapi.org/v2/top-headlines?country=in&apiKey=90b5566f6c314946a71f7e0be8d307c4')
+        return fetch('http://localhost:8080/bollywood')
                     .then((response)=>{
                         return response.json();
-
+                        
                     })
                     .then((res)=>{
-                        setData(res?.articles);
-                        console.log(res?.articles)
+                        setData(res);
+                        console.log(res)
                     })
     }
     console.log(data)

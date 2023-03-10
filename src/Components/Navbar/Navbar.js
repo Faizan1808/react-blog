@@ -19,7 +19,7 @@ const Navbar = () =>{
                 <li><Link to = "/Technology">Technology</Link></li>
                 <li><Link to = "/Hollywood">Hollywood</Link></li>
                 <li><Link to = "/Fitness">Fitness</Link></li>
-                <li className="last-li"><Link to = "/Food">Food</Link></li>
+                <li className="last-li"><Link to = "/Science">Science</Link></li>
             </ul>
             
                 <hr className="head-hr"/>

@@ -6,7 +6,7 @@ const HomeContent = () => {
     const [data, setData] = useState([])
 
     const FetchApi = () => {
-        return fetch("https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=90b5566f6c314946a71f7e0be8d307c4")
+        return fetch("http://localhost:8080")
             .then((response) => {
                 return response.json();
             })
@@ -68,7 +68,7 @@ export function Latestcontent(props) {
     const [data, setData] = useState([])
 
     const FetchApi = () => {
-        return fetch("https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=90b5566f6c314946a71f7e0be8d307c4")
+        return fetch("http://localhost:8080")
             .then((response) => {
                 return response.json();
             })
@@ -118,7 +118,7 @@ export function ArticleContent(props) {
     const [data, setData] = useState([])
 
     const FetchApi = () => {
-        return fetch("https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=90b5566f6c314946a71f7e0be8d307c4")
+        return fetch("http://localhost:8080")
             .then((response) => {
                 return response.json();
             })
@@ -167,7 +167,7 @@ export function Posts(props) {
     const [data, setData] = useState([])
 
     const FetchApi = () => {
-        return fetch("https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=90b5566f6c314946a71f7e0be8d307c4")
+        return fetch("http://localhost:8080")
             .then((response) => {
                 return response.json();
             })

@@ -12,14 +12,14 @@ function Hollywood(){
     const [data, setData] = useState([])
 
     const fetchData = () =>{
-        return fetch('https://newsapi.org/v2/everything?domains=wsj.com&apiKey=90b5566f6c314946a71f7e0be8d307c4')
+        return fetch('http://localhost:8080/hollywood')
                     .then((response)=>{
                         return response.json();
 
                     })
                     .then((res)=>{
-                        setData(res?.articles);
-                        console.log(res.articles)
+                        setData(res);
+                        console.log(res)
                     })
     }
 

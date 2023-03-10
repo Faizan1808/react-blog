@@ -8,12 +8,12 @@ import { useState, useEffect } from 'react'
 
 
 
-function Fitness(){
+function Science(){
     
     const [data, setData] = useState([])
 
     const fetchData = () =>{
-        return fetch('http://localhost:8080/fitness')
+        return fetch('http://localhost:8080/science')
                     .then((response)=>{
                         return response.json();
 
@@ -31,7 +31,7 @@ function Fitness(){
     const nav = useNavigate()
 
     const handleNavigate = (id, item) =>{
-        nav(`/Fitness/${id}`,{ state: {item}})
+        nav(`/Science/${id}`,{ state: {item}})
     }
     return(
 
@@ -41,7 +41,7 @@ function Fitness(){
         <div id="Main-container">
             <div>
                 {/* Main container */}
-                <h1 className='heading'>Fitness</h1>
+                <h1 className='heading'>Science</h1>
                 < hr className="subhr"/>
                 
                 {data.slice(1,8).map((item, index) =>{
@@ -86,4 +86,4 @@ function Fitness(){
     )
 }
 
-export default Fitness
+export default Science
