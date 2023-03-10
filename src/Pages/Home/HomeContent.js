@@ -6,13 +6,13 @@ const HomeContent = () => {
     const [data, setData] = useState([])
 
     const FetchApi = () => {
-        return fetch("http://localhost:8080")
+        return fetch("https://blogapi-9ibr.onrender.com/")
             .then((response) => {
                 return response.json();
             })
 
             .then((res) => {
-                setData(res?.articles)
+                setData(res)
 
             })
     }
@@ -68,13 +68,13 @@ export function Latestcontent(props) {
     const [data, setData] = useState([])
 
     const FetchApi = () => {
-        return fetch("http://localhost:8080")
+        return fetch("https://blogapi-9ibr.onrender.com/")
             .then((response) => {
                 return response.json();
             })
 
             .then((res) => {
-                setData(res?.articles)
+                setData(res)
 
             })
     }
@@ -118,13 +118,13 @@ export function ArticleContent(props) {
     const [data, setData] = useState([])
 
     const FetchApi = () => {
-        return fetch("http://localhost:8080")
+        return fetch("https://blogapi-9ibr.onrender.com/")
             .then((response) => {
                 return response.json();
             })
 
             .then((res) => {
-                setData(res?.articles)
+                setData(res)
 
             })
     }
@@ -167,13 +167,13 @@ export function Posts(props) {
     const [data, setData] = useState([])
 
     const FetchApi = () => {
-        return fetch("http://localhost:8080")
+        return fetch("https://blogapi-9ibr.onrender.com/")
             .then((response) => {
                 return response.json();
             })
 
             .then((res) => {
-                setData(res?.articles)
+                setData(res)
 
             })
     }

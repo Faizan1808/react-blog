@@ -13,7 +13,7 @@ function Fitness(){
     const [data, setData] = useState([])
 
     const fetchData = () =>{
-        return fetch('http://localhost:8080/fitness')
+        return fetch('https://blogapi-9ibr.onrender.com/fitness')
                     .then((response)=>{
                         return response.json();
 

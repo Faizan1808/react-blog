@@ -31,6 +31,7 @@ const Routers = () =>{
                 <Route path={`/Hollywood/:id`} element = {<CommonFunction />} />
                 <Route path={`/Bollywood/:id`} element = {<CommonFunction />} />
                 <Route path={`/Fitness/:id`} element = {<CommonFunction />} />
+                <Route path={`/Science/:id`} element = {<CommonFunction />} />
 
 
             </Routes>

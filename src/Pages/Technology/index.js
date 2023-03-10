@@ -10,7 +10,7 @@ function Technology(){
     const [data, setData] = useState([])
 
     const fetchData = () =>{
-        return fetch('http://localhost:8080/technology')
+        return fetch('https://blogapi-9ibr.onrender.com/technology')
                     .then((response)=>{
                         return response.json();
 

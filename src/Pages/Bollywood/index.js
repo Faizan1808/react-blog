@@ -17,7 +17,7 @@ function Index(){
     const [data, setData] = useState([])
 
     const fetchData = () =>{
-        return fetch('http://localhost:8080/bollywood')
+        return fetch('https://blogapi-9ibr.onrender.com/bollywood')
                     .then((response)=>{
                         return response.json();
                         
